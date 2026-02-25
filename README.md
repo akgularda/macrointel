@@ -56,15 +56,8 @@ The site loads data from `./data/country-macro-map.js`.
 
 - Vanilla JavaScript (ES modules pattern)
 - D3.js v7 for visualization
-- Standalone from main supply chain site
-- Independent data contract
-
-## Development
-
-Tests:
-```bash
-node --test tests/macro-site-integrity.test.mjs
-```
+- Independent standalone project
+- Static deploy-ready (no build step required)
 
 ## GitHub Pages
 
