@@ -2,6 +2,10 @@
 
 Standalone website for visualizing global GDP and bilateral trade flows.
 
+## Live Demo
+
+- GitHub Pages: `https://akgularda.github.io/macrointel/`
+
 ## Features
 
 - **GDP Bubble Chart**: Countries sized by GDP (USD)
@@ -61,3 +65,15 @@ Tests:
 ```bash
 node --test tests/macro-site-integrity.test.mjs
 ```
+
+## GitHub Pages
+
+This repository includes an automated deployment workflow:
+
+- File: `.github/workflows/pages.yml`
+- Trigger: every push to `main`
+- Deployment target: GitHub Pages
+
+If the site is not visible yet, open repository settings and ensure:
+
+- `Settings -> Pages -> Build and deployment -> Source: GitHub Actions`
